@@ -18,7 +18,6 @@ const { isPad } = Platform;
 let iPhoneNotch = false;
 if (iOS) {
   // iphone screen breakdown
-  // https://blog.calebnance.com/development/iphone-ipad-pixel-sizes-guide-complete-list.html
   if (height === 812 || height === 844 || height === 896 || height === 926) {
     iPhoneNotch = true;
   }
